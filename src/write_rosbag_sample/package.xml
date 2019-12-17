@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>write_rosbag_sample</name>
+  <version>0.0.1</version>
+  <description>The write_rosbag_sample package</description>
+
+  <maintainer email="a@b.com">My Name</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>rosbag</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>topic_tools</build_depend>
+
+  <run_depend>rosbag</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>topic_tools</run_depend>
+
+  <export>
+  </export>
+</package>
